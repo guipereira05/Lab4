@@ -49,6 +49,14 @@ public class Utente {
 				+ peso + "]";
 	}
 	
+	public void CalculaMassa(String nome, int peso, float altura) {
+		 float quadradoAltura;
+		 float total;
+		quadradoAltura= altura*altura;
+		total=peso/quadradoAltura;
+		System.out.println("O/A "+nome+" tem o IMC de "+total+".");
+	}
+	
 	
 
 }
